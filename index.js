@@ -14,9 +14,8 @@ function nowServing(katzDeliLine) {
 
 
 function currentLine(katzDeliLine) {
-  
+  var str = "The line is currently: "
 }
-
 
 // str.slice(2, -1) extracts the third character through the 
 // second to last character in the string.
