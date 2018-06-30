@@ -15,6 +15,7 @@ function nowServing(katzDeliLine) {
 
 function currentLine(katzDeliLine) {
   var str = "The line is currently: "
+  for (var i = 0; i < katzDeliLine; i++)
 }
 
 // str.slice(2, -1) extracts the third character through the 
