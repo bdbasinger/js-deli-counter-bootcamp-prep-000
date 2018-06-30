@@ -26,6 +26,7 @@ function currentLine(katzDeliLine) {
       str += `${i + 1}. ${katzDeliLine[i]}, `
     }
   }
+  return str
 }
 
 // 
