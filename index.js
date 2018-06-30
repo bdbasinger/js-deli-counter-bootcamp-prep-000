@@ -12,4 +12,3 @@ function nowServing(katzDeliLine) {
   }
 }
 
-// .shift(katzDeliLine[0])
