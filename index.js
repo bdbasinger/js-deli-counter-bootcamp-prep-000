@@ -15,12 +15,17 @@ function nowServing(katzDeliLine) {
 
 function currentLine(katzDeliLine) {
   var str = "The line is currently: "
-  for (var i = 0; i < katzDeliLine; i++) {
-    
+  for (var i = 0; i < katzDeliLine.length; i++) {
+    if (i === katzDeliLine.length - 1) {
+      str += `${i + 1}. ${katzDeliLine[i]}`
+    }
+    else {
+      str += `${i + 1}. ${katzDeliLine[i]}, `
+    }
   }
 }
 
-// ["Ada", "Grace"]
+// 
 // str.slice(2, -1) extracts the third character through the 
 // second to last character in the string.
 
